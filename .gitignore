@@ -1,0 +1,9 @@
+# deps
+node_modules/
+
+# IDE
+.idea/
+
+# build
+build/
+build.zip

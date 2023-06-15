@@ -1,0 +1,11 @@
+{
+  "name": "lib-a",
+  "version": "1.0.0",
+  "author": "Alex Sudbinin",
+  "license": "n/a",
+  "private": true,
+  "packageManager": "yarn@3.6.0",
+  "scripts": {
+    "build": "tsc"
+  }
+}

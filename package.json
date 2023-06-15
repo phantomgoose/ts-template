@@ -1,0 +1,35 @@
+{
+  "name": "ts_template",
+  "version": "0.1.0",
+  "author": "Alex Sudbinin",
+  "description": "A simple template for typescript projects with preconfigured Yarn Berry + Workspaces, Prettier, ESLint, TS settings, and barebone types",
+  "license": "n/a",
+  "private": true,
+  "engines": {
+    "node": ">=18.14.0"
+  },
+  "workspaces": [
+    "src/*"
+  ],
+  "packageManager": "yarn@3.6.0",
+  "scripts": {
+    "format": "prettier -w .",
+    "build": "yarn workspaces foreach run build"
+  },
+  "devDependencies": {
+    "@types/node": "^18.14.0",
+    "@typescript-eslint/eslint-plugin": "^5.54.1",
+    "@typescript-eslint/parser": "^5.54.1",
+    "eslint": "^8.34.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-airbnb-typescript": "^17.0.0",
+    "eslint-config-prettier": "^8.6.0",
+    "eslint-plugin-import": "^2.27.5",
+    "eslint-plugin-jsx-a11y": "^6.7.1",
+    "eslint-plugin-prettier": "^4.2.1",
+    "eslint-plugin-react": "^7.32.2",
+    "prettier": "^2.8.4",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.1.3"
+  }
+}
